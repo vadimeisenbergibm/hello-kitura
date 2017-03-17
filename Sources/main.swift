@@ -26,4 +26,4 @@ let connectionProperties = ConnectionProperties(
 
 let couchDBClient = CouchDBClient(connectionProperties: connectionProperties)
 
-print("Hello, CouchDB!")
+print("Hello, CouchDB! client = \(couchDBClient)")
